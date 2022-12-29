@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Mamizu</title>
+        <link rel="stylesheet" href="./stylesheet.css">
+    </head>
+
+    <body>
+        <div class="flex">
+
+            <div class="menubar">
+                <h1>Mamizuのサイト</h1>
+                <ul>
+                    <li><h2 id="button_home">ホーム</h2></li>
+                    <li><h2 id="button_work">作ったやつ</h2></li>
+                    <li><h2 id="button_contact">連絡先</h2></li>
+                </ul>
+                <span>©2022 Mamizu</span>
+            </div>
+
+
+            <div class="mainpage">
+                <!-- ホーム画面 始まり-->
+                <div class="welcome">
+                    <h1>ようこそ</h1>
+                    HTMLとかCSSとかJavaScriptを勉強するためにこのサイトを作ってみました。<br>
+                    色々試行錯誤中なのでデザインは終わってますが大目に見てください。<br>
+                </div>
+
+                <div class="introduction">
+                    <h1>自己紹介</h1>
+                    Mamizuと申します。大学で情報工学とか勉強してます。<br>
+                    一時期Minecraftのプラグイン開発(産業廃棄物)をJavaでしてましたが最近は全然やってないです。<br>
+                    大学ではC言語をやってます。その他自分でちょっとかじったのはPythonとかHTML/CSS,JavaScript(今やってる)です。<br>
+                    SQLはちょっとだけやったけど微妙です。その内ちゃんと勉強したい<br>
+                </div>
+
+                <div class="hobby">
+                    <h1>趣味</h1>
+                    基本的にゲームが趣味です。友達と遊び歩くのも好きです。<br>
+                </div>
+
+                <div class="game">
+                    <h1>やってるゲーム</h1>
+                    Minecraft, OverWatch 2, Cities Skylines, FGO, etc<br>
+                </div>
+
+                <div class="github">
+                    <h1>Github</h1>
+                    作ったやつとかぶりそうだけどgithub置いときます。<br>
+                    <a href="https://github.com/Mamizu0312">Mamizuのgithub</a>
+                </div>
+
+                <!-- <input type="button" value="隠す" onclick="hideElements('welcome');hideElements('introduction');hideElements('hobby');hideElements('game');">
+                <br>
+                <input type="button" value="表示" onclick="revealElements('welcome');revealElements('introduction');revealElements('hobby');revealElements('game');">
+                -->
+
+                <!-- ホーム画面 終わり-->
+                <!-- 作ったやつ 始まり-->
+                <div class = "works">
+                    <h1>作ったやつ</h1>
+                    制作物を置いておきます。正直使い物にならない物ばかりですが許してください。<br>
+                    基本的にコードだけです。<br>
+                </div>
+                <div class="mcplugin">
+                    <h1>Minecraft Plugin</h1>
+                    <h3>DropProbability</h3>
+                    使用言語: Java ,対応バージョン: 忘れた<br>
+                    ブロック破壊時のアイテムドロップ率が調節できるプラグインです。<br>
+                    大学受験が終わったあとのリハビリで作ったものですが、ちゃんと動いたプラグインはこれが初なんじゃないだろうかと思います。<br>
+                    ただ更新はしてないのでやっぱり産業廃棄物<br>
+                    <a href="https://github.com/Mamizu0312/DropProbability">github: DropProbability</a><br>
+
+                    <h3>SimpleSpawn</h3>
+                    使用言語: Java, 対応バージョン: 忘れた(超古い)<br>
+                    /spawnコマンドを実装するやつです。configファイルで座標を設定できます。<br>
+                    例によって2018年に作ったブツなのでもちろん最新のバージョンでは動かないです。<br>
+                    <a href="https://github.com/Mamizu0312/SimpleSpawn">github: SimpleSpawn</a>
+
+                </div>
+                <div class="others">
+                    <h1>その他</h1>
+                    プラグイン以外のプログラムはここに。<br>
+                    <h3>TCPChat</h3>
+                    使用言語: Python<br>
+                    TCPソケット通信による簡単なチャットプログラムです。<br>
+                    クライアントサーバ方式です。<br>
+                    これも結構中途半端な物なので起動するかわからないです。<br>
+                    configファイルなんてものはないのでIPアドレスは直接書き換えてください。<br>
+                    <a href="https://github.com/Mamizu0312/TCPChat">github: TCPChat</a>
+                    <br><br><br><br>
+                </div>
+
+                <div class="contact">
+                    <h1>SNS</h1>
+                    Twitter:<br>
+                    <a href="https://twitter.com/_Mamizu">twitter: @_mamizu</a>
+                </div>
+                <!-- 作ったやつ 終わり-->
+            </div>
+                </div>
+            </div>
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>
