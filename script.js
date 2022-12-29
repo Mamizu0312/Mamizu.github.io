@@ -1,31 +1,4 @@
 
-
-//最初の処理
-
-/* window.onload = function () {
-    elements = document.getElementsByClassName("menubar")[0].children;
-    alert("尿");
-    for(var i = 0; i < elements.length; i++) {
-        elements[i].addEventListener("click", menulink(i));
-        elements[i].addEventListener("hover", menuhover(i));
-    }
-}
-
-function menulink(menu_num) {
-    switch(menu_num) {
-        case 0:
-            location.href("./index.html");
-        case 1:
-            location:
-    }
-}
-
-function menuhover(menu_num) {
-
-}
-*/
-
-var IsWelcomeVisible = true;
 let classlist_home = ["welcome", "introduction", "hobby", "game", "github"];
 let classlist_work = ["works", "mcplugin", "others"];
 let classlist_contact = ["contact"];
@@ -89,7 +62,6 @@ function revealContactElements() {
 
 
 function onClickMenuButton_home() {
-    console.log("lol");
     revealHomeElements();
     hideWorkElements();
     hideContactElements();
